@@ -165,14 +165,13 @@ html,body{
     left:0;
 }
 .slide3 .box li{
-    background: url("../img/bg.jpg");
     width: 2.2rem;
     height: 2.2rem;
     line-height: 2rem;
     text-align: center;
-    border:1px solid #fff;
+    border: 0.02rem solid lightpink;
     border-radius: 50%;
-    color:#fff;
+    color: #fff;
     font-size: 0.35rem;
     position: absolute;
     overflow: hidden;
@@ -269,7 +268,7 @@ html,body{
 }
 .slide4 .skill li:nth-child(1){
     position: absolute;
-    top: 1.9rem;
+    top: 1.4rem;
     left: 1.2rem;
     transform: rotateZ(-29deg);
     -webkit-transform: rotateZ(-29deg);
@@ -277,7 +276,7 @@ html,body{
 }
 .slide4 .skill li:nth-child(2){
     position: absolute;
-    top: 4rem;
+    top: 3.8rem;
     left: 1.1rem;
     transform: rotateZ(334deg);
     -webkit-transform: rotateZ(334deg);
@@ -285,7 +284,7 @@ html,body{
 }
 .slide4 .skill li:nth-child(3){
     position: absolute;
-    bottom: 1.8rem;
+    bottom: 1.9rem;
     left: 1.2rem;
     transform: rotateZ(-29deg);
     -webkit-transform: rotateZ(-29deg);
@@ -307,61 +306,135 @@ html,body{
     opacity: 1;
 
 }
+
 /*................slide5................*/
 .slide5 .back{
+    width:100%;
+    height:100%;
+    background: url("../img/hh.gif") no-repeat;
+    background-size: 100% 100%;
+}
+.slide5 .show-word{
+    position: absolute;
+    top:1.2rem;
+    left:2.6rem;
+    font-size: 0.30rem;
+    color: wheat;
+    text-shadow:lightcyan;
+}
+.slide5 .show-img li{
+    width: 2rem;
+    height: 2rem;
+    border: 0.01rem solid lightslategray;
+    border-radius: 10%;
+    opacity: 0;
+    box-shadow: 0 0 0.9rem linen;
+}
+.slide5 .show-img li img{
+    width:100%;
+    height:100%;
+    border-radius: 10%;
+}
+
+.slide5 .show-img li:nth-child(1){
+    position: absolute;
+    top: 2rem;
+    right: 3.2rem;
+}
+.slide5 .show-img li:nth-child(2){
+    position: absolute;
+    top: 4.9rem;
+    right: 3.2rem;
+}
+.slide5 .show-img li:nth-child(3){
+    position: absolute;
+    bottom: 1.6rem;
+    right: 3.2rem;
+}
+.slide5 .show-img li:nth-child(4){
+    position: absolute;
+    top: 2rem;
+    left: 3.2rem;
+}
+.slide5 .show-img li:nth-child(5){
+    position: absolute;
+    top: 4.9rem;
+    left: 3.2rem;
+}
+.slide5 .show-img li:nth-child(6){
+    position: absolute;
+    bottom: 1.6rem;
+    left: 3.2rem;
+}
+#page5 .show-word{
+    animation: zoomOut 1s 3;
+    -webkit-animation: zoomOut 1s 3;
+}
+#page5 .show-img li:nth-child(1){
+    animation: flipInX  2s ease 1s;
+    -webkit-animation: flipInX  2s ease 1s;
+    opacity: 1;
+}
+#page5 .show-img li:nth-child(2){
+    animation: flipInX 2.4s ease 1s;
+    -webkit-animation: flipInX 2.4s ease 1s;
+    opacity: 1;
+}
+#page5 .show-img li:nth-child(3){
+    animation: flipInX 2.6s ease 1s;
+    -webkit-animation: flipInX 2.6s ease 1s;
+    opacity: 1;
+}
+#page5 .show-img li:nth-child(4){
+    animation: flipInX 2s ease 1s;
+    -webkit-animation: flipInX 2s ease 1s;
+    opacity: 1;
+}
+#page5 .show-img li:nth-child(5){
+    animation: flipInX 2.4s ease 1s;
+    -webkit-animation: flipInX 2.4s ease 1s;
+    opacity: 1;
+}
+#page5 .show-img li:nth-child(6){
+    animation: flipInX 2.6s ease 1s;
+    -webkit-animation: flipInX 2.6s ease 1s;
+    opacity: 1;
+}
+/*.......................slide6.....................*/
+
+.slide6 .back{
     width:100%;
     height:100%;
     background: url("../img/h01.jpg") no-repeat;
     background-size: 100% 100%;
 }
-.slide5 .word{
+.slide6 .word{
     position: absolute;
     top: 3rem;
     left: 1.4rem;
     font-size: 0.4rem;
     color: wheat;
+    text-shadow: 0 0 0.5rem linen;
 }
-.slide5 .bg{
+.slide6 .bg{
     width: 4.5rem;
     height: 4.5rem;
     position: absolute;
     left: 1rem;
     top: 5.2rem;
+    opacity: 0;
+    box-shadow: 0 0 0.8rem #fff;
 }
-.slide5 .bg img{
+.slide6 .bg img{
     width:100%;
     height:100%;
-    opacity: 0;
+    border-radius: 1%;
 }
-#page5 .bg img{
+#page6 .bg{
     animation: bounceInUp 2s;
     -webkit-animation: bounceInUp 2s;
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .music {
     width: 0.6rem;
     height: 0.6rem;
