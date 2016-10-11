@@ -185,10 +185,10 @@ html,body{
 }
 .slide3 .box li:nth-child(1){
     top: 1rem;
-    right: 0.5rem
+    right: 0.5rem;
 }
 .slide3 .box li:nth-child(2){
-    top: 2.6rem;
+    top: 2rem;
     left: 1rem;
 }
 .slide3 .box li:nth-child(3){
@@ -196,12 +196,12 @@ html,body{
     right: 0.8rem;
 }
 .slide3 .box li:nth-child(4){
-    bottom: 3.6rem;
+    top: 5rem;
     left: 0.5rem;
 }
 .slide3 .box li:nth-child(5){
-    bottom: 1.6rem;
-    right: 0.9rem;
+    top: 7rem;
+    right: 1.4rem;
 }
 #page3 li:nth-child(1){
     animation: fadeOutDown  2s;
@@ -284,10 +284,10 @@ html,body{
 }
 .slide4 .skill li:nth-child(3){
     position: absolute;
-    bottom: 1.9rem;
+    top: 6rem;
     left: 1.2rem;
-    transform: rotateZ(-29deg);
-    -webkit-transform: rotateZ(-29deg);
+    transform: rotateZ(-27deg);
+    -webkit-transform: rotateZ(-27deg);
     z-index: 6;
 }
 #page4 .skill li:nth-child(1) div{
@@ -327,7 +327,6 @@ html,body{
     height: 2rem;
     border: 0.01rem solid lightslategray;
     border-radius: 10%;
-    opacity: 0;
     box-shadow: 0 0 0.9rem linen;
 }
 .slide5 .show-img li img{
@@ -340,65 +339,75 @@ html,body{
     position: absolute;
     top: 2rem;
     right: 3.2rem;
+    opacity: 0;
 }
 .slide5 .show-img li:nth-child(2){
     position: absolute;
-    top: 4.9rem;
+    top: 4.4rem;
     right: 3.2rem;
+    opacity: 0;
+
 }
 .slide5 .show-img li:nth-child(3){
     position: absolute;
-    bottom: 1.6rem;
+    top: 6.9rem;
     right: 3.2rem;
+    opacity: 0;
+
 }
 .slide5 .show-img li:nth-child(4){
     position: absolute;
     top: 2rem;
     left: 3.2rem;
+    opacity: 0;
+
 }
 .slide5 .show-img li:nth-child(5){
     position: absolute;
-    top: 4.9rem;
+    top: 4.4rem;
     left: 3.2rem;
+    opacity: 0;
 }
 .slide5 .show-img li:nth-child(6){
     position: absolute;
-    bottom: 1.6rem;
+    top: 6.9rem;
     left: 3.2rem;
+    opacity: 0;
+
 }
 #page5 .show-word{
     animation: zoomOut 1s 3;
     -webkit-animation: zoomOut 1s 3;
 }
 #page5 .show-img li:nth-child(1){
-    animation: flipInX  2s ease 1s;
-    -webkit-animation: flipInX  2s ease 1s;
+    animation: flipOutY  2s ease 1s;
+    -webkit-animation: flipOutY  2s ease 1s;
     opacity: 1;
 }
 #page5 .show-img li:nth-child(2){
-    animation: flipInX 2.4s ease 1s;
-    -webkit-animation: flipInX 2.4s ease 1s;
-    opacity: 1;
+    animation: flipOutY  2s ease 1s;
+    -webkit-animation: flipOutY  2s ease 1s;
+    opacity: 1
 }
 #page5 .show-img li:nth-child(3){
-    animation: flipInX 2.6s ease 1s;
-    -webkit-animation: flipInX 2.6s ease 1s;
-    opacity: 1;
+    animation: flipOutY  2s ease 1s;
+    -webkit-animation: flipOutY  2s ease 1s;
+    opacity: 1
 }
 #page5 .show-img li:nth-child(4){
-    animation: flipInX 2s ease 1s;
-    -webkit-animation: flipInX 2s ease 1s;
-    opacity: 1;
+    animation: flipOutY  2s ease 1s;
+    -webkit-animation: flipOutY  2s ease 1s;
+    opacity: 1
 }
 #page5 .show-img li:nth-child(5){
-    animation: flipInX 2.4s ease 1s;
-    -webkit-animation: flipInX 2.4s ease 1s;
-    opacity: 1;
+    animation: flipOutY  2s ease 1s;
+    -webkit-animation: flipOutY  2s ease 1s;
+    opacity: 1
 }
 #page5 .show-img li:nth-child(6){
-    animation: flipInX 2.6s ease 1s;
-    -webkit-animation: flipInX 2.6s ease 1s;
-    opacity: 1;
+    animation: flipOutY  2s ease 1s;
+    -webkit-animation: flipOutY  2s ease 1s;
+    opacity: 1
 }
 /*.......................slide6.....................*/
 
@@ -452,21 +461,4 @@ html,body{
     -webkit-animation:move 1s infinite linear both;
 }
 
-@keyframes move {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes move {
-    0%{
-        -webkit-transform: rotate(0deg);
-    }
-    100%{
-        -webkit-transform: rotate(360deg);
-    }
-}
 
