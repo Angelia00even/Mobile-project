@@ -223,15 +223,15 @@ html,body{
 
 }
 #page3 li:nth-child(4){
-    animation: fadeOutDown  2.6s;
-    -webkit-animation: fadeOutDown  2.6s;
+    animation: fadeOutDown  2.5s;
+    -webkit-animation: fadeOutDown  2.5s;
     opacity: 0.4;
 
 
 }
 #page3 li:nth-child(5){
-    animation: fadeOutDown  2.8s;
-    -webkit-animation: fadeOutDown  2.8s;
+    animation: fadeOutDown  2.6s;
+    -webkit-animation: fadeOutDown  2.6s;
     opacity: 0.4;
 
 
@@ -461,6 +461,24 @@ html,body{
     opacity: 1;
     animation:move 1s infinite linear both;
     -webkit-animation:move 1s infinite linear both;
+}
+
+@keyframes move {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes move {
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
 }
 
 
