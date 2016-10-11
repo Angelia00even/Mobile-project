@@ -223,15 +223,17 @@ html,body{
 
 }
 #page3 li:nth-child(4){
-    animation: fadeOutDown  2.6s;
-    -webkit-animation: fadeOutDown  2.6s;
+    animation: fadeOutDown  2.5s;
+    -webkit-animation: fadeOutDown  2.5s;
     opacity: 0.4;
 
 
 }
 #page3 li:nth-child(5){
-    animation: fadeOutDown  2.8s;
+    animation: fadeOutDown  2.6s;
+    -webkit-animation: fadeOutDown  2.6s;
     opacity: 0.4;
+
 
 
 
