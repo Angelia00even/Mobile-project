@@ -35,11 +35,13 @@ html,body{
     background-color: rgba(103, 103, 103, .7);
     box-shadow: 0 0 0.9rem;
     font-size: 0.36rem;
+    opacity: 0;
 }
 .slide1 .on{
     position: absolute;
     bottom: 0;
     left: 1.2rem;
+    opacity: 0;
 }
 .content li{
     width: 3rem;
@@ -74,20 +76,20 @@ html,body{
     top:5rem;
     left:1rem;
 }
-#page1 img{
+#page1 .content{
+   animation:  fadeInUp 2.5s;
+   -webkit-animation:  fadeInUp 2.5s ;
     opacity: 1;
 }
-#page1 .content{
-   animation:  fadeInUp 2.5s ease;
-   -webkit-animation:  fadeInUp 2.5s ease;
-}
 #page1 .con img{
-    animation: rotateOutDownRight 1.5s ease ;
-    -webkit-animation: rotateOutDownRight 1.5s ease ;
+    animation: rotateOutDownRight 1.5s  ;
+    -webkit-animation: rotateOutDownRight 1.5s  ;
+    opacity: 1;
 }
-#page1 .on img{
-    animation:  lightSpeedIn 4s;
-    -webkit-animation:  lightSpeedIn 4s;
+#page1 .on{
+    animation:  lightSpeedIn 6s;
+    -webkit-animation:  lightSpeedIn 6s;
+    opacity: 1;
 }
 /*.........slide2.................*/
 .slide2 .back{
@@ -114,7 +116,7 @@ html,body{
     line-height: 0.8rem;
     text-align: center;
     color: #fff;
-    font-size: 0.6rem;
+    font-size: 0.3rem;
     opacity: 0;
 
 }
@@ -126,7 +128,7 @@ html,body{
     position: absolute;
     bottom: 0.5rem;
     left: 0.76rem;
-    width: 4.3rem;
+    width: 4.2rem;
     height: 5rem;
     box-shadow: 0 0 0.3rem;
 }
@@ -333,12 +335,16 @@ html,body{
     color: wheat;
     text-shadow:lightcyan;
 }
+.slide5 .show-img{
+    opacity: 0;
+}
 .slide5 .show-img li{
-    width: 2rem;
-    height: 2rem;
+    width: 1.6rem;
+    height: 1.6rem;
     border: 0.01rem solid lightslategray;
     border-radius: 10%;
     box-shadow: 0 0 0.9rem linen;
+    opacity: 0;
 }
 .slide5 .show-img li img{
     width:100%;
@@ -351,12 +357,14 @@ html,body{
     top: 2rem;
     right: 3.2rem;
     opacity: 0;
+
 }
 .slide5 .show-img li:nth-child(2){
     position: absolute;
     top: 4.4rem;
     right: 3.2rem;
     opacity: 0;
+
 
 }
 .slide5 .show-img li:nth-child(3){
@@ -365,6 +373,7 @@ html,body{
     right: 3.2rem;
     opacity: 0;
 
+
 }
 .slide5 .show-img li:nth-child(4){
     position: absolute;
@@ -372,12 +381,14 @@ html,body{
     left: 3.2rem;
     opacity: 0;
 
+
 }
 .slide5 .show-img li:nth-child(5){
     position: absolute;
     top: 4.4rem;
     left: 3.2rem;
     opacity: 0;
+
 }
 .slide5 .show-img li:nth-child(6){
     position: absolute;
@@ -385,10 +396,14 @@ html,body{
     left: 3.2rem;
     opacity: 0;
 
+
 }
 #page5 .show-word{
     animation: zoomOut 1s 3;
     -webkit-animation: zoomOut 1s 3;
+}
+#page5 .show-img{
+    opacity: 1;
 }
 #page5 .show-img li:nth-child(1){
     animation: flipInX  2s ease 1s;
@@ -444,11 +459,13 @@ html,body{
     top: 5.2rem;
     opacity: 0;
     box-shadow: 0 0 0.8rem #fff;
+    border-radius: 5%;
 }
 .slide6 .bg img{
     width:100%;
     height:100%;
-    border-radius: 1%;
+    border-radius: 5%;
+
 }
 #page6 .bg{
     animation: bounceInUp 2s;
